@@ -1,0 +1,147 @@
+*{padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background: url("https://www.wallpapertip.com/wmimgs/33-333974_maori-tribal.jpg");
+
+	font-family: arial, sans-serif;
+}
+
+.contenedor{
+	width: 90%;
+max-width: 1000px;
+background: #ccc;
+margin: 30px auto;
+}
+
+header{
+	background: #30323d
+	color: #fff;
+	padding: 20px auto;
+}
+
+header nav ul{
+	width: 100%;
+}
+header nav ul{
+	width: 100%;
+	overflow: hidden;
+	list-style: none;
+}
+header nav ul li{
+	float: left;
+}
+header nav ul li a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 15px;
+	color: #fff;
+} 
+header nav ul li a:hover{
+	background: #fff;
+	color: #000;
+}
+.main{
+	background: #fff;
+	float: left auto;
+}
+.main.imagen{
+	width: 50%;
+}
+.main.imagen img{
+	width: 50%
+	vertical-align: top;
+}
+
+.main .posts{
+	padding: 20px;
+}
+.main .posts article h1{
+	margin-bottom: 20px;
+	color: #424242;
+}
+.main .posts article p{
+	margin-bottom: 15px;
+	line-height: 27px;
+}
+
+aside{
+	background: LIGHTGRAY;
+	color: #FFF
+	padding: 10%;
+	width: 100%;
+	height: 60px;
+	float: left;
+}
+aside .widget{
+	margin-bottom: 30px;
+}
+aside .widget .titulo{
+	color: #000
+	border-bottom: 1px solid #ff8000
+	margin-bottom:10px;
+}
+aside .widget ul{
+	list-style: none;
+}
+aside .widget ul li{
+	border-bottom: 1px solid rgba(255,255,255,0,2);
+	padding: 10px 0;
+	display: inline-block;
+	padding: 10px 15px;
+}
+aside .widget ul li a{
+	color: BLACK;
+	text-decoration: none;
+}
+aside .widget ul li a:hover{
+	color: SNOW;
+}
+aside .widget ul li a{
+	line-height: 27px;
+}
+footer{
+	clear: both;
+	background: #4d5061
+	padding:20px;
+	color: GRAY;
+	text-align: center;
+
+@media screen and (max-width: 800px){
+	.main{ 
+	width: 100%;
+	 }
+	 aside{
+	 	width: 100%;
+}
+.Seccion01{
+	background: #fff;
+	float: left;
+}
+.Seccion01 .center01{
+	width: 100%;
+}
+.Seccion01 .center01 img{
+	width: 49.5%
+	vertical-align: top;
+}
+.Seccion01 .center02{
+	width: 100%;
+}
+.Seccion01 .center02 img{
+	width: 49.5%
+	vertical-align: top;
+}
+.Seccion01 .center03{
+	width: 100%;
+}
+.Seccion01 .center03 img{
+	width: 49.5%
+	vertical-align: top;
+}
+}
+}
